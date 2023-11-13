@@ -9,23 +9,31 @@
     tools:context=".restaurants">
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:text="< Back" />
-
     <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/Hotels" />
+
+
+    <Button
+        android:id="@+id/b1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:src="@drawable/Hotels"
+        android:text="Anar a la pagina web"
+        android:onClick="anarPagina"
+        android:shadowColor="@color/white">
 
-        />
+        </Button>
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="< Back" />
+
 
 
 </LinearLayout>
