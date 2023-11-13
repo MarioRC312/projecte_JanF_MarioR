@@ -5,5 +5,5 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Projecte_JanF_MarioR" parent="Base.Theme.Projecte_JanF_MarioR" />
+    <style name="Theme.Projecte_JanF_MarioR" parent="Base.Theme.MaterialComponents" />
 </resources>
