@@ -1,39 +1,274 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".restaurants">
+    tools:context=".restaurants"
+    android:background="@color/green">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
 
-    <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_centerVertical="true"
-        android:src="@drawable/Hotels" />
+       <TextView
+           android:id="@+id/text"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+           android:textSize="25dp"
+           android:layout_marginBottom="30dp"
+           android:text="Llistat d'hotels"
+           android:textColor="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/Hotels" />
+            <TextView
+                android:id="@+id/textNom1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:gravity="center"
+                android:layout_toRightOf="@id/img1"
+                android:textColor="@color/black"
+                android:text="Hotel bhb"/>
+
+            <TextView
+                android:id="@+id/textImg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@id/img1"
+                android:text="Carrer Valldoriolf, 1.
+                    www.hotel-bb.com
+                    938 40 71 32"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@id/img1"
+                android:backgroundTint="@color/green"
+                android:onClick="anarPagina"
+                android:text="Anar a la pagina web"
+                android:textSize="14dp" />
+
+            <Button
+
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/b1"
+                android:layout_below="@id/img1"
+                android:backgroundTint="@color/green"
+                android:onClick="anarPagina"
+                android:text="Trucar per telefon"
+                android:textSize="13dp" />
 
 
-    <Button
-        android:id="@+id/b1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Anar a la pagina web"
-        android:onClick="anarPagina"
-        android:shadowColor="@color/white">
+        </RelativeLayout>
 
-        </Button>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
 
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/hotel_ciutat" />
+            <TextView
+                android:id="@+id/textNom2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:gravity="center"
+                android:layout_toRightOf="@id/img2"
+                android:textColor="@color/black"
+                android:text="Hotel ciutat"/>
+            <TextView
+                android:id="@+id/textImg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img2"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Carrer Turo d'en Bruguet,2.
+                              www.hotelciutatgranollers.com
+                        938 79 62 20
+                    Valoració: "/>
 
 
         <Button
+
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/img2"
+            android:onClick="anarPagina"
+            android:backgroundTint="@color/green"
+            android:text="Anar a la pagina web"
+            android:textSize="14dp"/>
+
+            <Button
+
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/b3"
+                android:layout_below="@id/img2"
+                android:backgroundTint="@color/green"
+                android:onClick="anarPagina"
+                android:text="Trucar per telefon"
+                android:textSize="13dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:text="< Back" />
+            android:layout_marginTop="20dp">
+            
+            
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/fonda_europa"/>
+            <TextView
+                android:id="@+id/textNom3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:gravity="center"
+                android:layout_toRightOf="@id/img3"
+                android:textColor="@color/black"
+                android:text="Fonda europa"/>
+
+           <TextView
+            android:id="@+id/textImg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img3"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Carrer d'Agustí Viñamata, 2.
+                  www.fondaeuropa.eu.
+                   938 70 03 12
+                    Valoració: "/>
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/img3"
+                android:onClick="anarPagina"
+                android:backgroundTint="@color/green"
+                android:text="Anar a la pagina web"
+                android:textSize="14dp"/>
+
+            <Button
+
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/b5"
+                android:layout_below="@id/img3"
+                android:backgroundTint="@color/green"
+                android:onClick="anarPagina"
+                android:text="Trucar per telefon"
+                android:textSize="13dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
 
 
 
-</LinearLayout>
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/hotel_h"/>
+            <TextView
+                android:id="@+id/textNom4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:gravity="center"
+                android:layout_toRightOf="@id/img4"
+                android:textColor="@color/black"
+                android:text="Hotel H"/>
+
+            <TextView
+                android:id="@+id/textImg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img4"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Carretera del Masnou, Km.14,
+                  www.hotelh.es
+                   938 60 66 88
+                    Valoració: "/>
+            <Button
+
+                android:id="@+id/b7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img4"
+                android:onClick="anarPagina"
+                android:backgroundTint="@color/green"
+                android:text="Anar a la pagina web"
+                android:textSize="14dp"/>
+
+            <Button
+
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/b7"
+                android:layout_below="@id/img4"
+                android:backgroundTint="@color/green"
+                android:onClick="anarPagina"
+                android:text="Trucar per telefon"
+                android:textSize="13dp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
