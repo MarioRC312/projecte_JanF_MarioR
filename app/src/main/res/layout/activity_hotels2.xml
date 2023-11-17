@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".restaurants"
+    tools:context=".hotels2"
     android:background="@color/green">
 
     <LinearLayout
@@ -15,15 +15,16 @@
         android:orientation="vertical">
 
 
-       <TextView
-           android:id="@+id/text"
-           android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-           android:textSize="25dp"
-           android:layout_marginBottom="30dp"
-           android:text="Llistat d'hotels"
-           android:textColor="@color/black" />
+            android:layout_marginTop="2dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="30dp"
+            android:text="Llistat d'hotels"
+            android:textColor="@color/black" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -33,7 +34,8 @@
                 android:id="@+id/img1"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:src="@drawable/Hotels" />
+
+                android:src="@drawable/hotelsbxb" />
             <TextView
                 android:id="@+id/textNom1"
                 android:layout_width="match_parent"
@@ -89,11 +91,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
 
-        <ImageView
-            android:id="@+id/img2"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/hotel_ciutat" />
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/hotel_ciutat" />
             <TextView
                 android:id="@+id/textNom2"
                 android:layout_width="match_parent"
@@ -119,16 +121,16 @@
                     Valoració: "/>
 
 
-        <Button
+            <Button
 
-            android:id="@+id/b3"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/img2"
-            android:onClick="anarPagina"
-            android:backgroundTint="@color/green"
-            android:text="Anar a la pagina web"
-            android:textSize="14dp"/>
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/img2"
+                android:onClick="anarPagina"
+                android:backgroundTint="@color/green"
+                android:text="Anar a la pagina web"
+                android:textSize="14dp"/>
 
             <Button
 
@@ -148,14 +150,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
-            
-            
 
-        <ImageView
-            android:id="@+id/img3"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/fonda_europa"/>
+
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/fonda_europa"/>
             <TextView
                 android:id="@+id/textNom3"
                 android:layout_width="match_parent"
@@ -167,16 +169,16 @@
                 android:textColor="@color/black"
                 android:text="Fonda europa"/>
 
-           <TextView
-            android:id="@+id/textImg3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/img3"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="50dp"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:text="Carrer d'Agustí Viñamata, 2.
+            <TextView
+                android:id="@+id/textImg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img3"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Carrer d'Agustí Viñamata, 2.
                   www.fondaeuropa.eu.
                    938 70 03 12
                     Valoració: "/>
@@ -212,12 +214,12 @@
             android:layout_marginTop="20dp">
 
 
-
             <ImageView
                 android:id="@+id/img4"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:src="@drawable/hotel_h"/>
+                android:src="@drawable/hotel_h" />
+
             <TextView
                 android:id="@+id/textNom4"
                 android:layout_width="match_parent"
@@ -268,6 +270,67 @@
 
         </RelativeLayout>
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/Hotel_granollers" />
+            <TextView
+                android:id="@+id/textNom5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:gravity="center"
+                android:layout_toRightOf="@id/img5"
+                android:textColor="@color/black"
+                android:text="Hotel Granollers"/>
+            <TextView
+                android:id="@+id/textImg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img5"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Carrer de Francesc Macià i Llussà, 300,
+                              www.hotelgranollers.com
+
+
+                              938 79 51 00
+                    Valoració: "/>
+
+
+            <Button
+
+                android:id="@+id/b9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/img5"
+                android:onClick="anarPagina"
+                android:backgroundTint="@color/green"
+                android:text="Anar a la pagina web"
+                android:textSize="14dp"/>
+
+            <Button
+
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/b9"
+                android:layout_below="@id/img5"
+                android:backgroundTint="@color/green"
+                android:onClick="anarPagina"
+                android:text="Trucar per telefon"
+                android:textSize="13dp" />
+
+        </RelativeLayout>
     </LinearLayout>
 
 
