@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".hotels2"
-    android:background="@color/green">
+    android:background="@color/white">
 
     <LinearLayout
 
@@ -24,7 +24,7 @@
             android:textSize="25dp"
             android:layout_marginBottom="30dp"
             android:text="Llistat d'hotels"
-            android:textColor="@color/black" />
+            android:textColor="@color/blue" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -41,10 +41,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
+                android:textColor="@color/blue"
 
                 android:gravity="center"
                 android:layout_toRightOf="@id/img1"
-                android:textColor="@color/black"
                 android:text="Hotel bhb"/>
 
             <TextView
@@ -66,10 +66,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_below="@id/img1"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/blue"
                 android:onClick="anarPagina"
                 android:text="Anar a la pagina web"
-                android:textSize="14dp" />
+                android:textSize="13dp" />
 
             <Button
 
@@ -78,7 +78,7 @@
                 android:layout_height="match_parent"
                 android:layout_toRightOf="@id/b1"
                 android:layout_below="@id/img1"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/blue"
                 android:onClick="anarPagina"
                 android:text="Trucar per telefon"
                 android:textSize="13dp" />
@@ -104,7 +104,7 @@
 
                 android:gravity="center"
                 android:layout_toRightOf="@id/img2"
-                android:textColor="@color/black"
+                android:textColor="@color/blue"
                 android:text="Hotel ciutat"/>
             <TextView
                 android:id="@+id/textImg2"
@@ -128,7 +128,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@+id/img2"
                 android:onClick="anarPagina"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/blue"
                 android:text="Anar a la pagina web"
                 android:textSize="14dp"/>
 
@@ -139,7 +139,7 @@
                 android:layout_height="match_parent"
                 android:layout_toRightOf="@id/b3"
                 android:layout_below="@id/img2"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/blue"
                 android:onClick="anarPagina"
                 android:text="Trucar per telefon"
                 android:textSize="13dp" />
@@ -166,7 +166,7 @@
 
                 android:gravity="center"
                 android:layout_toRightOf="@id/img3"
-                android:textColor="@color/black"
+                android:textColor="@color/blue"
                 android:text="Fonda europa"/>
 
             <TextView
@@ -189,7 +189,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@+id/img3"
                 android:onClick="anarPagina"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/blue"
                 android:text="Anar a la pagina web"
                 android:textSize="14dp"/>
 
@@ -200,7 +200,7 @@
                 android:layout_height="match_parent"
                 android:layout_toRightOf="@id/b5"
                 android:layout_below="@id/img3"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/blue"
                 android:onClick="anarPagina"
                 android:text="Trucar per telefon"
                 android:textSize="13dp" />
@@ -228,7 +228,7 @@
 
                 android:gravity="center"
                 android:layout_toRightOf="@id/img4"
-                android:textColor="@color/black"
+                android:textColor="@color/blue"
                 android:text="Hotel H"/>
 
             <TextView
@@ -251,7 +251,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/img4"
                 android:onClick="anarPagina"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/blue"
                 android:text="Anar a la pagina web"
                 android:textSize="14dp"/>
 
@@ -262,7 +262,7 @@
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/b7"
                 android:layout_below="@id/img4"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/blue"
                 android:onClick="anarPagina"
                 android:text="Trucar per telefon"
                 android:textSize="13dp" />
@@ -288,7 +288,7 @@
 
                 android:gravity="center"
                 android:layout_toRightOf="@id/img5"
-                android:textColor="@color/black"
+                android:textColor="@color/blue"
                 android:text="Hotel Granollers"/>
             <TextView
                 android:id="@+id/textImg5"
@@ -314,7 +314,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@+id/img5"
                 android:onClick="anarPagina"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/blue"
                 android:text="Anar a la pagina web"
                 android:textSize="14dp"/>
 
@@ -325,7 +325,68 @@
                 android:layout_height="match_parent"
                 android:layout_toRightOf="@id/b9"
                 android:layout_below="@id/img5"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="@color/blue"
+                android:onClick="anarPagina"
+                android:text="Trucar per telefon"
+                android:textSize="13dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/Hotel_granollers" />
+            <TextView
+                android:id="@+id/textNom6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+
+                android:gravity="center"
+                android:layout_toRightOf="@id/img6"
+                android:textColor="@color/blue"
+                android:text="Hotel Granollers"/>
+            <TextView
+                android:id="@+id/textImg6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/img6"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:text="Carrer de Francesc Macià i Llussà, 300,
+                              www.hotelgranollers.com
+
+
+                              938 79 51 00
+                    Valoració: "/>
+
+
+            <Button
+
+                android:id="@+id/b11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/img6"
+                android:onClick="anarPagina"
+                android:backgroundTint="@color/blue"
+                android:text="Anar a la pagina web"
+                android:textSize="14dp"/>
+
+            <Button
+
+                android:id="@+id/b12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/b11"
+                android:layout_below="@id/img6"
+                android:backgroundTint="@color/blue"
                 android:onClick="anarPagina"
                 android:text="Trucar per telefon"
                 android:textSize="13dp" />
