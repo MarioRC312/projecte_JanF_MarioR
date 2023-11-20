@@ -21,7 +21,8 @@
         android:gravity="top|center"
         android:textSize="50dp"
         android:textColor="@color/black"
-        android:background="@color/purple"
+        android:background="@color/lightBlue"
+
         />
 
 

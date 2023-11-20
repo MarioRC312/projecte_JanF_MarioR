@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">projecte_JanF_MarioR</string>
+    <string name="res1">
+        Detalles:
+        RANGO DE PRECIOS: 15 € - 28 €
+        TIPOS DE COCINA: Restaurante de carne, Mediterránea, Barbacoa
+        DIETAS ESPECIALES: Opciones vegetarianas
+    </string>
+    <string name="res2">
+        Detalles:
+        RANGO DE PRECIOS: 15 € - 35 €
+        TIPOS DE COCINA: Asiática, Tailandesa, Saludable
+        DIETAS ESPECIALES: Opciones vegetarianas
+    </string>
+
 </resources>

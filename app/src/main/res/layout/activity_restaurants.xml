@@ -5,17 +5,339 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".restaurants"
-    android:background="@color/white">
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white"
+    >
 
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restaurants Granollers"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/lightBlue"
+            android:fontFamily="@font/vogamedium"
+           />
+
+
+
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="< Back"
+            >
+
+            <ImageButton
+                android:id="@+id/imgRest1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res1"
+                />
+
+            <TextView
+                android:id="@+id/Res1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Can Forquilla:"
+                android:textColor="@color/lightBlue"
+                android:layout_toRightOf="@+id/imgRest1"
+                android:textSize="50dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <ImageView
+                android:id="@+id/textRes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/estrellas"
+                android:layout_toRightOf="@+id/imgRest1"
+                android:layout_below="@+id/Res1"
+                />
+
+            <Button
+                android:id="@+id/reservaRes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Reserva"
+                android:textSize="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:textColor="@color/white"
+                android:layout_below="@+id/textRes1"
+                android:layout_toRightOf="@+id/imgRest1"
+                />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgRest2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res2"
+                />
+
+            <TextView
+                android:id="@+id/Res2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tik Thai Restaurant:"
+                android:textColor="@color/lightBlue"
+                android:layout_toRightOf="@+id/imgRest2"
+                android:textSize="40dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <ImageView
+                android:id="@+id/textRes2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/estrellas"
+                android:layout_toRightOf="@+id/imgRest2"
+                android:layout_below="@+id/Res2"
+                android:layout_marginTop="15dp"
+                />
+
+            <Button
+                android:id="@+id/reservaRes2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Reserva"
+                android:textSize="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@+id/imgRest2"
+                android:layout_below="@+id/textRes2"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgRest3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res3"
+                />
+
+            <TextView
+                android:id="@+id/Res3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kodama:"
+                android:textColor="@color/lightBlue"
+                android:layout_toRightOf="@+id/imgRest3"
+                android:textSize="50dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <ImageView
+                android:id="@+id/textRes3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/estrellas"
+                android:layout_toRightOf="@+id/imgRest3"
+                android:layout_below="@+id/Res3"
+                android:layout_marginTop="15dp"
+                />
+
+            <Button
+                android:id="@+id/reservaRes3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Reserva"
+                android:textSize="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@+id/imgRest3"
+                android:layout_below="@+id/textRes3"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgRest4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res4"
+                />
+
+            <TextView
+                android:id="@+id/Res4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ostrya Celler del Ferrer:"
+                android:textColor="@color/lightBlue"
+                android:layout_toRightOf="@+id/imgRest4"
+                android:textSize="30dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <ImageView
+                android:id="@+id/textRes4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/estrellas"
+                android:layout_toRightOf="@+id/imgRest4"
+                android:layout_below="@+id/Res4"
+                android:layout_marginTop="15dp"
+                />
+
+            <Button
+                android:id="@+id/reservaRes4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Reserva"
+                android:textSize="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@+id/imgRest4"
+                android:layout_below="@+id/textRes4"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgRest5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res5"
+                />
+
+            <TextView
+                android:id="@+id/Res5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NANA Restaurant Japonès:"
+                android:textColor="@color/lightBlue"
+                android:layout_toRightOf="@+id/imgRest5"
+                android:textSize="30dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <ImageView
+                android:id="@+id/textRes5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/estrellas"
+                android:layout_toRightOf="@+id/imgRest5"
+                android:layout_below="@+id/Res5"
+                android:layout_marginTop="15dp"
+                />
+
+            <Button
+                android:id="@+id/reservaRes5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Reserva"
+                android:textSize="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@+id/imgRest5"
+                android:layout_below="@+id/textRes5"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgRest6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res6"
+                />
+
+            <TextView
+                android:id="@+id/Res6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant La Gran Olla:"
+                android:textColor="@color/lightBlue"
+                android:layout_toRightOf="@+id/imgRest6"
+                android:textSize="32dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <ImageView
+                android:id="@+id/textRes6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/estrellas"
+                android:layout_toRightOf="@+id/imgRest6"
+                android:layout_below="@+id/Res6"
+                android:layout_marginTop="15dp"
+                />
+
+            <Button
+                android:id="@+id/reservaRes6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Reserva"
+                android:textSize="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@+id/imgRest6"
+                android:layout_below="@+id/textRes6"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/backBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/lightBlue"
+            android:textColor="@color/white"
             android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="< Back"
             />
     </LinearLayout>
 
