@@ -7,25 +7,20 @@
     android:orientation="vertical"
     tools:context=".hotels2"
     android:background="@color/white">
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <RelativeLayout
-            android:layout_width=""
-            android:layout_height="">
+        android:layout_height="match_parent">
 
 
+   <ListView
+       android:id="@+id/lvLista"
+       android:layout_width="match_parent"
+       android:layout_height="500dp"
+       android:layout_margin="8dp"
 
 
+       />
 
-        </RelativeLayout>
-
-
-
-    </LinearLayout>
-
+    </RelativeLayout>
 
 </ScrollView>
