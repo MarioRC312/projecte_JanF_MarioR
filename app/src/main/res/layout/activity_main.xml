@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@color/white"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
 
     <TextView
@@ -21,28 +20,66 @@
         android:gravity="top|center"
         android:textSize="50dp"
         android:textColor="@color/black"
-        android:background="@color/purple"
-        />
+        android:background="@color/purple"/>
 
 
     <ImageButton
         android:id="@+id/negoci"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="20dp"
-        android:src="@drawable/business"
-        />
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="140dp"
+        android:src="@drawable/business"/>
 
     <ImageButton
         android:id="@+id/restaurant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="140dp"
         android:layout_marginLeft="50dp"
         android:src="@drawable/restaurants"
-        android:layout_toRightOf="@+id/negoci"
-        />
+        android:layout_toRightOf="@+id/negoci"/>
+
+    <ImageButton
+        android:id="@+id/hotels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_below="@id/negoci"
+        android:src="@drawable/hotels" />
+
+    <ImageButton
+        android:id="@+id/movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/movies"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/hotels"
+        android:layout_below="@id/restaurant"/>
+
+
+
+    <ImageButton
+        android:id="@+id/parking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="140dp"
+        android:src="@drawable/parking"
+        android:layout_below="@+id/hotels"/>
+
+
+    <ImageButton
+        android:id="@+id/events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/events"
+        android:layout_below="@+id/movies"
+        android:layout_toRightOf="@id/parking" />
 
 
 </RelativeLayout>
