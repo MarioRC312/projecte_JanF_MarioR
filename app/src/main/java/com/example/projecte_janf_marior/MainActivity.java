@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    ImageButton negoci, restaurant;
+    ImageButton negoci, restaurant,hotels,movies,parking,events;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +21,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         restaurant=findViewById(R.id.restaurant);
         restaurant.setOnClickListener(this);
+
+        hotels=findViewById(R.id.hotels);
+        hotels.setOnClickListener(this);
+
+        movies=findViewById(R.id.movies);
+        movies.setOnClickListener(this);
+
+        parking=findViewById(R.id.parking);
+        parking.setOnClickListener(this);
+
+        events=findViewById(R.id.events);
+        events.setOnClickListener(this);
+
     }
 
     @Override
@@ -35,6 +48,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(this, restaurants.class);
             startActivity(intent);
         }
+        else if(b.getId() == R.id.hotels){
+            Intent intent = new Intent(this, hotels2.class);
+            startActivity(intent);
+        }
+        else if(b.getId() == R.id.movies){
+            Intent intent = new Intent(this, movies.class);
+            startActivity(intent);
+        }
+        /*else if(b.getId() == R.id.parking){
+            Intent intent = new Intent(this, parking.class);
+            startActivity(intent);
+        }
+        else if(b.getId() == R.id.events){
+            Intent intent = new Intent(this, events.class);
+            startActivity(intent);
+        }*/
 
     }
 }
