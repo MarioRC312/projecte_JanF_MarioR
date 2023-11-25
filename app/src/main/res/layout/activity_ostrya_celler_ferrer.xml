@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="315dp"
-        android:src="@drawable/fondoRes2Final" />
+        android:src="@drawable/fondoRes4Final" />
 
     <TextView
         android:layout_width="match_parent"
@@ -31,14 +31,14 @@
         android:text="RANG DE PREUS:"
         android:textColor="@color/black"
         android:gravity="left"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:fontFamily="@font/lemonmilk"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="15 € - 35 €"
+        android:text="10 € - 30 €"
         android:textColor="@color/black"
         android:gravity="left"
         android:textSize="20dp"
@@ -52,7 +52,7 @@
         android:text="TIPUS DE CUINA:"
         android:textColor="@color/black"
         android:gravity="left"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:fontFamily="@font/lemonmilk"
         android:layout_marginTop="10dp"
         />
@@ -60,7 +60,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Asiática, Tailandesa, Saludable"
+        android:text="Mediterránea, Tienda gourmet, Vinoteca, Bar, Española"
         android:textColor="@color/black"
         android:gravity="left"
         android:textSize="20dp"
@@ -74,7 +74,7 @@
         android:text="DIETES ESPECIALS:"
         android:textColor="@color/black"
         android:gravity="left"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:fontFamily="@font/lemonmilk"
         android:layout_marginTop="10dp"
         />
@@ -82,7 +82,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Opciones vegetarianas"
+        android:text="Opciones vegetarianas, Opciones veganas"
         android:textColor="@color/black"
         android:gravity="left"
         android:textSize="20dp"
@@ -97,30 +97,30 @@
         >
 
         <ImageView
-            android:id="@+id/img1Res2"
+            android:id="@+id/img1Res4"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="5dp"
-            android:src="@drawable/sopaRes2"
-            />
+            android:src="@drawable/entrepaRes4" />
 
         <ImageView
-            android:id="@+id/img2Res2"
-            android:layout_toRightOf="@+id/img1Res2"
+            android:id="@+id/img2Res4"
+            android:layout_toRightOf="@+id/img1Res4"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/enpanadillasRes2"
+            android:src="@drawable/jamonRes4"
             />
 
         <ImageView
-            android:id="@+id/img3Res2"
-            android:layout_toRightOf="@+id/img2Res2"
+            android:id="@+id/img3Res4"
+            android:layout_toRightOf="@+id/img2Res4"
             android:layout_width="100dp"
-            android:layout_height="110dp"
+            android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/gambaRes2"
+            android:src="@drawable/quesoRes4"
             />
+
 
 
     </RelativeLayout>

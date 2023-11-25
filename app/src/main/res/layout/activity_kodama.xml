@@ -97,28 +97,28 @@
         >
 
         <ImageView
-            android:id="@+id/img1Res1"
+            android:id="@+id/img1Res3"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="5dp"
-            android:src="@drawable/huevosRes1"
+            android:src="@drawable/sushiRes3"
             />
 
         <ImageView
-            android:id="@+id/img2Res1"
-            android:layout_toRightOf="@+id/img1Res1"
+            android:id="@+id/img2Res3"
+            android:layout_toRightOf="@+id/img1Res3"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="50dp"
             android:src="@drawable/localRes1"
             />
 
         <ImageView
-            android:id="@+id/img3Res1"
-            android:layout_toRightOf="@+id/img2Res1"
+            android:id="@+id/img3Res3"
+            android:layout_toRightOf="@+id/img2Res3"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="50dp"
             android:src="@drawable/local2Res1"
             />
 
@@ -126,16 +126,40 @@
 
     </RelativeLayout>
 
-    <Button
-        android:id="@+id/backBoton"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/white"
-        android:layout_gravity="bottom"
-        android:layout_marginTop="9dp"
-        android:layout_marginLeft="10dp"
-        android:text="< Back"
-        />
+        >
+
+        <Button
+            android:id="@+id/backBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp"
+            android:text="< Back"
+            />
+
+        <Button
+
+            android:id="@+id/paginaBoton"
+            android:layout_toRightOf="@+id/backBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp"
+            android:text="Pagina >"
+            />
+
+    </RelativeLayout>
+
+
+
 
 </LinearLayout>

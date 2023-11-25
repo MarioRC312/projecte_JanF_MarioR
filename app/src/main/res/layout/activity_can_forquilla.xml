@@ -126,16 +126,37 @@
 
     </RelativeLayout>
 
-    <Button
-        android:id="@+id/backBoton"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/white"
-        android:layout_gravity="bottom"
-        android:layout_marginTop="9dp"
-        android:layout_marginLeft="10dp"
-        android:text="< Back"
-        />
+        >
+
+        <Button
+            android:id="@+id/backBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp"
+            android:text="< Back"
+            />
+
+        <Button
+
+            android:id="@+id/paginaBoton"
+            android:layout_toRightOf="@+id/backBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp"
+            android:text="Pagina >"
+            />
+
+    </RelativeLayout>
 
 </LinearLayout>

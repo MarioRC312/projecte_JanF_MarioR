@@ -19,10 +19,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:gravity="top|center"
-        android:textSize="50dp"
+        android:textSize="40dp"
         android:textColor="@color/black"
         android:background="@color/lightBlue"
-
+        android:fontFamily="@font/lemonmilk"
         />
 
 
@@ -45,5 +45,46 @@
         android:layout_toRightOf="@+id/negoci"
         />
 
+    <ImageButton
+        android:id="@+id/hoteles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/hotels"
+        android:layout_below="@+id/negoci"
+        />
+
+    <ImageButton
+        android:id="@+id/peliculas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/movies"
+        android:layout_below="@+id/negoci"
+        android:layout_toRightOf="@+id/negoci"
+        />
+
+    <ImageButton
+        android:id="@+id/parking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/parking"
+        android:layout_below="@+id/hoteles"
+        />
+
+    <ImageButton
+        android:id="@+id/calendari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/events"
+        android:layout_below="@+id/peliculas"
+        android:layout_toRightOf="@+id/parking"
+        />
 
 </RelativeLayout>

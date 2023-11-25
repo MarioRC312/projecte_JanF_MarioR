@@ -11,6 +11,8 @@ import android.widget.ImageButton;
 
 public class restaurants extends AppCompatActivity implements View.OnClickListener {
 
+    //TODO: SPPINER CLASSES RESTAURANTES
+
     //INFO RESTAURANT
     ImageButton res1, res2, res3, res4, res5, res6;
 
@@ -68,7 +70,7 @@ public class restaurants extends AppCompatActivity implements View.OnClickListen
 
     @Override
     public void onClick(View view) {
-        //TODO:CONFIGURACION PAGINAS RESTAURANTES, preguntar EVA IMAGENES
+        //Vista previa restaurants
         ImageButton b = (ImageButton)view;
 
         if(b.getId() == R.id.imgRest1){
@@ -80,16 +82,20 @@ public class restaurants extends AppCompatActivity implements View.OnClickListen
             startActivity(intentRes2);
         }
         else if(b.getId() == R.id.imgRest3){
-
+            Intent intentRes3 = new Intent(this, kodama.class);
+            startActivity(intentRes3);
         }
         else if(b.getId() == R.id.imgRest4){
-
+            Intent intentRes4 = new Intent(this, ostryaCellerFerrer.class);
+            startActivity(intentRes4);
         }
         else if(b.getId() == R.id.imgRest5){
-
+            Intent intentRes5 = new Intent(this, nana_japones.class);
+            startActivity(intentRes5);
         }
         else if(b.getId() == R.id.imgRest6){
-
+            Intent intentRes6 = new Intent(this, laGranOlla.class);
+            startActivity(intentRes6);
         }
 
         //TRUCAR RESTAURANTS

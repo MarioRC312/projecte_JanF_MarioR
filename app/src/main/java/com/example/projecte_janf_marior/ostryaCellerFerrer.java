@@ -8,14 +8,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class kodama extends AppCompatActivity implements View.OnClickListener{
+public class ostryaCellerFerrer extends AppCompatActivity implements View.OnClickListener{
 
     Button back, pagina;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kodama);
+        setContentView(R.layout.activity_ostrya_celler_ferrer);
 
         back=findViewById(R.id.backBoton);
         back.setOnClickListener(this);
@@ -34,7 +34,7 @@ public class kodama extends AppCompatActivity implements View.OnClickListener{
         }
         else if(boto.getId() == R.id.paginaBoton){
             Intent intent2 = new Intent(Intent.ACTION_WEB_SEARCH);
-            intent2.putExtra(SearchManager.QUERY, "https://www.tripadvisor.es/Restaurant_Review-g670666-d18717186-Reviews-Kodama-Granollers_Catalonia.html");
+            intent2.putExtra(SearchManager.QUERY, "https://www.tripadvisor.es/Restaurant_Review-g670666-d12233843-Reviews-Ostrya_Celler_Del_Ferrer-Granollers_Catalonia.html");
             startActivity(intent2);
         }
     }
