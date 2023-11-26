@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Projecte_JanF_MarioR"
         tools:targetApi="31">
         <activity
+            android:name=".calendariObert"
+            android:exported="false" />
+        <activity
+            android:name=".calendariEvents"
+            android:exported="false" />
+        <activity
             android:name=".laGranOlla"
             android:exported="false" />
         <activity
