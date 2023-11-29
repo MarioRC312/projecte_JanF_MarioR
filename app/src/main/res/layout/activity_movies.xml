@@ -16,10 +16,7 @@
        android:id="@+id/lvLista"
        android:layout_width="match_parent"
        android:layout_height="500dp"
-       android:layout_margin="8dp"
-
-
-       />
+       android:layout_margin="8dp"/>
 
     </RelativeLayout>
 
