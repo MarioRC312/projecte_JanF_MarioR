@@ -327,6 +327,53 @@
 
         </RelativeLayout>
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageButton
+                android:id="@+id/imgRest7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res7"
+                />
+
+            <TextView
+                android:id="@+id/Res7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Can Forquilla:"
+                android:textColor="@color/lightBlue"
+                android:layout_toRightOf="@+id/imgRest7"
+                android:textSize="50dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <ImageView
+                android:id="@+id/textRes7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/estrellas"
+                android:layout_toRightOf="@+id/imgRest7"
+                android:layout_below="@+id/Res7"
+                />
+
+            <Button
+                android:id="@+id/reservaRes7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Reserva"
+                android:textSize="10dp"
+                android:backgroundTint="@color/lightBlue"
+                android:textColor="@color/white"
+                android:layout_below="@+id/textRes7"
+                android:layout_toRightOf="@+id/imgRest7"
+                />
+
+        </RelativeLayout>
+
         <Button
             android:id="@+id/backBoton"
             android:layout_width="wrap_content"

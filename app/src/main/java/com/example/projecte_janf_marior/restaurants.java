@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.bumptech.glide.Glide;
+
 public class restaurants extends AppCompatActivity implements View.OnClickListener {
 
     //TODO: SPPINER CLASSES RESTAURANTES
@@ -66,6 +68,12 @@ public class restaurants extends AppCompatActivity implements View.OnClickListen
 
         back=findViewById(R.id.backBoton);
         back.setOnClickListener(this);
+
+        /*
+        Glide.with(this)
+                .load(urlDeLaImagen)
+                .into(Img);
+        */
     }
 
     @Override
