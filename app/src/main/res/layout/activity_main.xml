@@ -26,33 +26,26 @@
         />
 
 
-    <ImageButton
-        android:id="@+id/negoci"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="20dp"
-        android:src="@drawable/business"
-        />
+
 
     <ImageButton
         android:id="@+id/restaurant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="20dp"
         android:src="@drawable/restaurants"
-        android:layout_toRightOf="@+id/negoci"
+
         />
 
     <ImageButton
         android:id="@+id/hoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
         android:src="@drawable/hotels"
-        android:layout_below="@+id/negoci"
+        android:layout_toRightOf="@+id/restaurant"
         />
 
     <ImageButton
@@ -62,8 +55,8 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="50dp"
         android:src="@drawable/movies"
-        android:layout_below="@+id/negoci"
-        android:layout_toRightOf="@+id/negoci"
+        android:layout_below="@+id/hoteles"
+        android:layout_toRightOf="@+id/parking"
         />
 
     <ImageButton
@@ -73,18 +66,9 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:src="@drawable/parking"
-        android:layout_below="@+id/hoteles"
+        android:layout_below="@+id/restaurant"
         />
 
-    <ImageButton
-        android:id="@+id/calendari"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="50dp"
-        android:src="@drawable/events"
-        android:layout_below="@+id/peliculas"
-        android:layout_toRightOf="@+id/parking"
-        />
+
 
 </RelativeLayout>

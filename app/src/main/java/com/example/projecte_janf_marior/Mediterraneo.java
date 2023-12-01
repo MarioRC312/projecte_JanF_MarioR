@@ -62,6 +62,15 @@ public class Mediterraneo extends Fragment implements View.OnClickListener{
         res3 = (ImageButton) getView().findViewById(R.id.imgRest3);
         res3.setOnClickListener(this);
 
+        reserva1= (Button) getView().findViewById(R.id.reservaRes1);
+        reserva1.setOnClickListener(this);
+
+        reserva2= (Button) getView().findViewById(R.id.reservaRes2);
+        reserva2.setOnClickListener(this);
+
+        reserva3= (Button) getView().findViewById(R.id.reservaRes3);
+        reserva3.setOnClickListener(this);
+
     }
 
     @Override
@@ -82,7 +91,7 @@ public class Mediterraneo extends Fragment implements View.OnClickListener{
             startActivity(intentRes1);
         }
         else if (b.getId() == R.id.imgRest2){
-            Intent intentRes2 = new Intent(this, canForquilla.class);
+            Intent intentRes2 = new Intent(this, ostryaCellerFerrer.class);
             startActivity(intentRes2);
         }
         else if (b.getId() == R.id.imgRest3){
@@ -101,8 +110,8 @@ public class Mediterraneo extends Fragment implements View.OnClickListener{
             startActivity(intent2);
         }
         else if(boto.getId() == R.id.reservaRes3){
-            Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:938 79 51 00"));
-            startActivity(intent2);
+            Intent intent3 = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:938 79 51 00"));
+            startActivity(intent3);
         }
 
     }

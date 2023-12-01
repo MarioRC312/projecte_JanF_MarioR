@@ -31,7 +31,7 @@
             />
 
         <ImageView
-            android:id="@+id/textRes2"
+            android:id="@+id/textRes1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/estrellas"
@@ -50,7 +50,7 @@
             android:backgroundTint="@color/lightBlue"
             android:textColor="@color/white"
             android:layout_toRightOf="@+id/imgRest1"
-            android:layout_below="@+id/textRes2"
+            android:layout_below="@+id/textRes1"
             />
 
     </RelativeLayout>

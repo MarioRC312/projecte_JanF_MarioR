@@ -15,6 +15,18 @@
         android:theme="@style/Theme.Projecte_JanF_MarioR"
         tools:targetApi="31">
         <activity
+            android:name=".pure_cuisine"
+            android:exported="false" />
+        <activity
+            android:name=".leks_thai"
+            android:exported="false" />
+        <activity
+            android:name=".mifune_neko"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".parking"
             android:exported="false" />
         <activity
