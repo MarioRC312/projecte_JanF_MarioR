@@ -1,17 +1,23 @@
 package com.example.projecte_janf_marior;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
-public class restaurants extends AppCompatActivity implements View.OnClickListener {
+public class restaurants extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
 
     //TODO: SPPINER CLASSES RESTAURANTES
 
@@ -26,54 +32,59 @@ public class restaurants extends AppCompatActivity implements View.OnClickListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurants);
 
-        res1=findViewById(R.id.imgRest1);
-        res1.setOnClickListener(this);
+        Spinner spinnerRes=(Spinner) findViewById(R.id.spinnerRes);
+        spinnerRes.setOnItemSelectedListener(this);
 
-        res2=findViewById(R.id.imgRest2);
-        res2.setOnClickListener(this);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_spinner_item){
+            @Override
+            public View getView(int position, View convertView, ViewGroup parent) {
 
-        res3=findViewById(R.id.imgRest3);
-        res3.setOnClickListener(this);
+                View v = super.getView(position, convertView, parent);
+                if (position == getCount()) {
+                    ((TextView)v.findViewById(android.R.id.text1)).setText("");
+                    ((TextView)v.findViewById(android.R.id.text1)).setHint(getItem(getCount())); //"Hint to be displayed"
+                }
 
-        res4=findViewById(R.id.imgRest4);
-        res4.setOnClickListener(this);
+                return v;
+            }
 
-        res5=findViewById(R.id.imgRest5);
-        res5.setOnClickListener(this);
+            @Override
+            public int getCount() {
+                return super.getCount()-1; // you dont display last item. It is used as hint.
+            }
+        };
 
-        res6=findViewById(R.id.imgRest6);
-        res6.setOnClickListener(this);
+        adapter.addAll("Tailandesa","Japonesa","Mediterraneo","Escull el teu restaurant");
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerRes.setAdapter(adapter);
+        spinnerRes.setSelection(adapter.getCount());
 
-        /*-----------------------------------------------*/
 
-        reserva1=findViewById(R.id.reservaRes1);
-        reserva1.setOnClickListener(this);
+        /*-------------------------------------------------------------*/
 
-        reserva2=findViewById(R.id.reservaRes2);
-        reserva2.setOnClickListener(this);
 
-        reserva3=findViewById(R.id.reservaRes3);
-        reserva3.setOnClickListener(this);
-
-        reserva4=findViewById(R.id.reservaRes4);
-        reserva4.setOnClickListener(this);
-
-        reserva5=findViewById(R.id.reservaRes5);
-        reserva5.setOnClickListener(this);
-
-        reserva6=findViewById(R.id.reservaRes6);
-        reserva6.setOnClickListener(this);
-
-        /*-----------------------------------------------*/
 
         back=findViewById(R.id.backBoton);
         back.setOnClickListener(this);
 
+
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id){
+        FragmentManager fm = getSupportFragmentManager();
+
         /*
-        Glide.with(this)
-                .load(urlDeLaImagen)
-                .into(Img);
-        */
+        switch (position){
+            case 0: fragme iFragment = new PerruqueriesFragment();
+                fm.beginTransaction().replace(R.id.business_container,iFragment).commit(); break;
+        }*/
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent){
+
     }
 
     @Override
@@ -81,10 +92,7 @@ public class restaurants extends AppCompatActivity implements View.OnClickListen
         //Vista previa restaurants
         ImageButton b = (ImageButton)view;
 
-        if(b.getId() == R.id.imgRest1){
-            Intent intentRes1 = new Intent(this, canForquilla.class);
-            startActivity(intentRes1);
-        }
+
         else if(b.getId() == R.id.imgRest2){
             Intent intentRes2 = new Intent(this, tikThai.class);
             startActivity(intentRes2);
@@ -110,10 +118,7 @@ public class restaurants extends AppCompatActivity implements View.OnClickListen
 
         Button boto = (Button)view;
 
-        if(boto.getId() == R.id.reservaRes1){
-            Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:938 42 40 05"));
-            startActivity(intent1);
-        }
+
         else if(boto.getId() == R.id.reservaRes2){
             Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:654 65 01 51"));
             startActivity(intent2);

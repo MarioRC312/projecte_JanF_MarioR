@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tailandesa"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgRest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/res2"
+            />
+
+        <TextView
+            android:id="@+id/Res1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tik Thai Restaurant:"
+            android:textColor="@color/lightBlue"
+            android:layout_toRightOf="@+id/imgRest1"
+            android:textSize="40dp"
+            android:fontFamily="@font/vogamedium"
+            />
+
+        <ImageView
+            android:id="@+id/textRes2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/estrellas"
+            android:layout_toRightOf="@+id/imgRest1"
+            android:layout_below="@+id/Res1"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/reservaRes1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Reserva"
+            android:textSize="10dp"
+            android:backgroundTint="@color/lightBlue"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@+id/imgRest1"
+            android:layout_below="@+id/textRes2"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="230dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/imgRest2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/res2TaiFinal"
+            />
+
+        <TextView
+            android:id="@+id/Res2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leks Thai:"
+            android:textColor="@color/lightBlue"
+            android:layout_toRightOf="@+id/imgRest2"
+            android:textSize="40dp"
+            android:fontFamily="@font/vogamedium"
+            />
+
+        <ImageView
+            android:id="@+id/textRes2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/estrellas"
+            android:layout_toRightOf="@+id/imgRest2"
+            android:layout_below="@+id/Res2"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/reservaRes2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Reserva"
+            android:textSize="10dp"
+            android:backgroundTint="@color/lightBlue"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@+id/imgRest2"
+            android:layout_below="@+id/textRes2"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="410dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/imgRest3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/res3TaiFinal"
+            />
+
+        <TextView
+            android:id="@+id/Res3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pure Cuisine:"
+            android:textColor="@color/lightBlue"
+            android:layout_toRightOf="@+id/imgRest3"
+            android:textSize="40dp"
+            android:fontFamily="@font/vogamedium"
+            />
+
+        <ImageView
+            android:id="@+id/textRes3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/estrellas"
+            android:layout_toRightOf="@+id/imgRest3"
+            android:layout_below="@+id/Res3"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/reservaRes3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Reserva"
+            android:textSize="10dp"
+            android:backgroundTint="@color/lightBlue"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@+id/imgRest3"
+            android:layout_below="@+id/textRes3"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>
