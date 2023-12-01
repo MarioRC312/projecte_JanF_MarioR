@@ -5,17 +5,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".restaurants"
-    android:background="@color/white">
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white"
+    >
 
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="< Back"
+            android:text="Restaurants Granollers"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/lightBlue"
+            android:fontFamily="@font/vogamedium"
+           />
+
+
+        <Spinner
+            android:id="@+id/spinnerRes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contenidorRes"
+            android:orientation="vertical"
+            />
+
+        <Button
+            android:id="@+id/backBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/lightBlue"
+            android:textColor="@color/white"
             android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="< Back"
             />
     </LinearLayout>
 

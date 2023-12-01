@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,26 +15,19 @@
         android:theme="@style/Theme.Projecte_JanF_MarioR"
         tools:targetApi="31">
         <activity
-            android:name=".detallsMovies"
+            android:name=".pure_cuisine"
             android:exported="false" />
         <activity
-            android:name=".LlistaMovies"
+            android:name=".leks_thai"
             android:exported="false" />
         <activity
-            android:name=".movies"
-            android:exported="false"
-            android:label="@string/title_activity_movies"
-            android:theme="@style/Theme.Projecte_JanF_MarioR" />
-        <activity
-            android:name=".movies2"
-            android:exported="false"
-            android:label="@string/title_activity_movies2"
-            android:theme="@style/Theme.Projecte_JanF_MarioR" />
-        <activity
-            android:name=".Parkings"
+            android:name=".mifune_neko"
             android:exported="false" />
         <activity
-            android:name=".hotels2"
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".parking"
             android:exported="false" />
         <activity
             android:name=".restaurants"

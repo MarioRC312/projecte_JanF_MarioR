@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".canForquilla"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:src="@drawable/fondoRes5Final" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalls"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:fontFamily="@font/vogamedium"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RANG DE PREUS:"
+        android:textColor="@color/black"
+        android:gravity="left"
+        android:textSize="18dp"
+        android:fontFamily="@font/lemonmilk"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5 € - 32 €"
+        android:textColor="@color/black"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:fontFamily="@font/vogamedium"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIPUS DE CUINA:"
+        android:textColor="@color/black"
+        android:gravity="left"
+        android:textSize="18dp"
+        android:fontFamily="@font/lemonmilk"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Japonesa, Asiática, Sushi"
+        android:textColor="@color/black"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:fontFamily="@font/vogamedium"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIETES ESPECIALS:"
+        android:textColor="@color/black"
+        android:gravity="left"
+        android:textSize="18dp"
+        android:fontFamily="@font/lemonmilk"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comidas, Cenas"
+        android:textColor="@color/black"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:fontFamily="@font/vogamedium"
+        android:layout_marginLeft="30dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/img1Res5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/sushiRes5" />
+
+        <ImageView
+            android:id="@+id/img2Res5"
+            android:layout_toRightOf="@+id/img1Res5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/sushi2Res5"
+            />
+
+        <ImageView
+            android:id="@+id/img3Res5"
+            android:layout_toRightOf="@+id/img2Res5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/fideosRes5"
+            />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/backBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp"
+            android:text="< Back"
+            />
+
+        <Button
+
+            android:id="@+id/paginaBoton"
+            android:layout_toRightOf="@+id/backBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp"
+            android:text="Pagina >"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

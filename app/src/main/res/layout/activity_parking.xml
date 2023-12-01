@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parking"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           >
+
+            <ImageView
+                android:id="@+id/imgPark1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/parking1Definitiu"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <TextView
+                android:id="@+id/park1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parking Corona (Grup PBlaus)"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/imgPark1"
+                android:textSize="30dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Places: 450"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/imgPark1"
+                android:layout_below="@+id/park1"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                />
+        </RelativeLayout>
+
+            <Button
+                android:id="@+id/numPrk1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Trucar"
+                android:textSize="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                />
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/imgPark2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/parking2Definitiu"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <TextView
+                android:id="@+id/Park2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parking Sant Carles"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/imgPark2"
+                android:textSize="30dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Places: 140"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/imgPark2"
+                android:layout_below="@+id/Park2"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                />
+        </RelativeLayout>
+
+            <Button
+                android:id="@+id/numPrk2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Trucar"
+                android:textSize="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                />
+
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/imgPark3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/parking3Definitiu"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <TextView
+                android:id="@+id/Park3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parking Granollers"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/imgPark3"
+                android:textSize="30dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Places: 58"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/imgPark3"
+                android:layout_below="@+id/Park3"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                />
+        </RelativeLayout>
+
+            <Button
+                android:id="@+id/numPrk3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Trucar"
+                android:textSize="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                />
+
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/imgPark4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/parking4Definitiu"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <TextView
+                android:id="@+id/Park4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aparcament públic Granollers"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/imgPark4"
+                android:textSize="30dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Places: 97"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/imgPark4"
+                android:layout_below="@+id/Park4"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                />
+        </RelativeLayout>
+
+            <Button
+                android:id="@+id/numPrk4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Trucar"
+                android:textSize="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                />
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/imgPark5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/parking5Definitiu"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <TextView
+                android:id="@+id/Park5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aparcamiento público Carles Riba"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/imgPark5"
+                android:textSize="30dp"
+                android:fontFamily="@font/vogamedium"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Places: 83"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/imgPark5"
+                android:layout_below="@+id/Park5"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/numPrk5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Trucar"
+            android:textSize="10dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="<- BACK"
+            android:textSize="20dp"
+            android:backgroundTint="@color/lightBlue"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
