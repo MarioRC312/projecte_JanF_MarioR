@@ -273,7 +273,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:text="<- BACK"
+            android:text="BACK"
             android:textSize="20dp"
             android:backgroundTint="@color/lightBlue"
             android:textColor="@color/white"

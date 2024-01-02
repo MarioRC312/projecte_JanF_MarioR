@@ -24,16 +24,10 @@
             android:name=".mifune_neko"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
             android:name=".parking"
             android:exported="false" />
         <activity
             android:name=".restaurants"
-            android:exported="false" />
-        <activity
-            android:name=".business"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
