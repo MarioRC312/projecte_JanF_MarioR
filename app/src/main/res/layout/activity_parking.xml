@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".parking"
-    android:background="@color/white"
+    android:background="@drawable/fondoparkingpagina"
     android:orientation="vertical"
-    android:backgroundTint="@color/white">
+    >
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
                 android:id="@+id/imgPark1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/parking1Definitiu"
+                android:src="@drawable/parking1definitiu"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 />
@@ -75,7 +75,7 @@
                 android:id="@+id/imgPark2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/parking2Definitiu"
+                android:src="@drawable/parking2definitiu"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 />
@@ -126,7 +126,7 @@
                 android:id="@+id/imgPark3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/parking3Definitiu"
+                android:src="@drawable/parking3definitiu"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 />
@@ -177,7 +177,7 @@
                 android:id="@+id/imgPark4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/parking4Definitiu"
+                android:src="@drawable/parking4definitiu"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 />
@@ -227,7 +227,7 @@
                 android:id="@+id/imgPark5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/parking5Definitiu"
+                android:src="@drawable/parking5definitiu"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 />

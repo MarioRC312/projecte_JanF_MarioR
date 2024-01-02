@@ -61,6 +61,8 @@ public class Tailandesa extends Fragment implements View.OnClickListener {
 
     }
 
+    //No he pogut aconseguir que els fragments és transferissin als activitys que havia creat
+    //La meva intenció era que al polsa el botó l'usuari anés a la pàgina corresponent amb el restaurant que ha escollit
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         res1 = (ImageButton) getView().findViewById(R.id.imgRest1);

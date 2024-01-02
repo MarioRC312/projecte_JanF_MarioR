@@ -13,11 +13,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Japonesa#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class Japonesa extends Fragment implements View.OnClickListener{
 
     ImageButton res1, res2, res3;
@@ -91,6 +87,8 @@ public class Japonesa extends Fragment implements View.OnClickListener{
         return inflater.inflate(R.layout.fragment_japonesa, container, false);
     }
 
+    //No he pogut aconseguir que els fragments és transferissin als activitys que havia creat
+    //La meva intenció era que al polsa el botó l'usuari anés a la pàgina corresponent amb el restaurant que ha escollit
     @Override
     public void onClick(View view) {
         ImageButton b = (ImageButton)view;

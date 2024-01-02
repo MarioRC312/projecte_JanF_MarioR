@@ -114,7 +114,7 @@
             android:id="@+id/imgRest3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/res3japFinal"
+            android:src="@drawable/res3japfinal"
             />
 
         <TextView

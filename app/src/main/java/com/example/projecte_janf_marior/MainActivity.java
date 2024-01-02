@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       restaurant=findViewById(R.id.restaurant);
+        restaurant=findViewById(R.id.restaurant);
         restaurant.setOnClickListener(this);
 
         hotels=findViewById(R.id.hoteles);
