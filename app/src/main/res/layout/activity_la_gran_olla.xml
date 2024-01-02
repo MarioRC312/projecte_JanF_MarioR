@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="315dp"
-        android:src="@drawable/fondoRes6Final" />
+        android:src="@drawable/fondores6final" />
 
     <TextView
         android:layout_width="match_parent"
@@ -101,7 +101,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="5dp"
-            android:src="@drawable/pizzetasRes6" />
+            android:src="@drawable/pizzetasres6" />
 
         <ImageView
             android:id="@+id/img2Res6"
@@ -109,7 +109,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/patatesRes6"
+            android:src="@drawable/patatesres6"
             />
 
         <ImageView
@@ -118,7 +118,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/empanadillasRes6"
+            android:src="@drawable/empanadillasres6"
             />
 
 

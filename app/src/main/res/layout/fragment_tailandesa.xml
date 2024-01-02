@@ -65,7 +65,7 @@
             android:id="@+id/imgRest2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/res2TaiFinal"
+            android:src="@drawable/res2taifinal"
             />
 
         <TextView
@@ -114,7 +114,7 @@
             android:id="@+id/imgRest3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/res3TaiFinal"
+            android:src="@drawable/res3taifinal"
             />
 
         <TextView

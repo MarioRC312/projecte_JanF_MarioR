@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="315dp"
-        android:src="@drawable/fondoRes1Final" />
+        android:src="@drawable/fondores1final" />
 
     <TextView
         android:layout_width="match_parent"
@@ -101,7 +101,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="5dp"
-            android:src="@drawable/huevosRes1"
+            android:src="@drawable/huevosres1"
             />
 
         <ImageView
@@ -110,7 +110,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/localRes1"
+            android:src="@drawable/localres1"
             />
 
         <ImageView
@@ -119,7 +119,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/local2Res1"
+            android:src="@drawable/local2res1"
             />
 
 

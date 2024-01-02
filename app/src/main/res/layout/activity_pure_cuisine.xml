@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="315dp"
-        android:src="@drawable/fondoTai3Final" />
+        android:src="@drawable/fondotai3final" />
 
     <TextView
         android:layout_width="match_parent"
@@ -101,7 +101,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="5dp"
-            android:src="@drawable/tai3Foto1"
+            android:src="@drawable/tai3foto1"
             />
 
         <ImageView
@@ -110,7 +110,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/tai3Foto2"
+            android:src="@drawable/tai3foto2"
             />
 
         <ImageView
@@ -119,7 +119,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/tai3Foto3"
+            android:src="@drawable/tai3foto3"
             />
 
 

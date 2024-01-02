@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="315dp"
-        android:src="@drawable/fondoRes4Final" />
+        android:src="@drawable/fondores4final" />
 
     <TextView
         android:layout_width="match_parent"
@@ -101,7 +101,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="5dp"
-            android:src="@drawable/entrepaRes4" />
+            android:src="@drawable/entrepares4" />
 
         <ImageView
             android:id="@+id/img2Res4"
@@ -109,7 +109,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/jamonRes4"
+            android:src="@drawable/jamonres4"
             />
 
         <ImageView
@@ -118,7 +118,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/quesoRes4"
+            android:src="@drawable/quesores4"
             />
 
 

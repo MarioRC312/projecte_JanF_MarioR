@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="315dp"
-        android:src="@drawable/fondoRes2Final" />
+        android:src="@drawable/fondores2final" />
 
     <TextView
         android:layout_width="match_parent"
@@ -101,7 +101,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="5dp"
-            android:src="@drawable/sopaRes2"
+            android:src="@drawable/sopares2"
             />
 
         <ImageView
@@ -110,7 +110,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/enpanadillasRes2"
+            android:src="@drawable/enpanadillasres2"
             />
 
         <ImageView
@@ -119,7 +119,7 @@
             android:layout_width="100dp"
             android:layout_height="110dp"
             android:layout_marginLeft="50dp"
-            android:src="@drawable/gambaRes2"
+            android:src="@drawable/gambares2"
             />
 
 
