@@ -10,29 +10,23 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    ImageButton negoci, restaurant,hotels,movies,parking,events;
+    ImageButton restaurant,hotels,movies,parking;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        negoci=findViewById(R.id.negoci);
-        negoci.setOnClickListener(this);
-
-        restaurant=findViewById(R.id.restaurant);
+       restaurant=findViewById(R.id.restaurant);
         restaurant.setOnClickListener(this);
 
-        hotels=findViewById(R.id.hotels);
+        hotels=findViewById(R.id.hoteles);
         hotels.setOnClickListener(this);
 
-        movies=findViewById(R.id.movies);
+        movies=findViewById(R.id.peliculas);
         movies.setOnClickListener(this);
 
         parking=findViewById(R.id.parking);
         parking.setOnClickListener(this);
-
-        events=findViewById(R.id.events);
-        events.setOnClickListener(this);
 
     }
 
@@ -40,30 +34,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         ImageButton b = (ImageButton)view;
 
-        if(b.getId() == R.id.negoci){
-            Intent intent = new Intent(this, business.class);
-            startActivity(intent);
-        }
-        else if(b.getId() == R.id.restaurant){
+        if(b.getId() == R.id.restaurant){
             Intent intent = new Intent(this, restaurants.class);
             startActivity(intent);
         }
-        else if(b.getId() == R.id.hotels){
-            Intent intent = new Intent(this, hotels2.class);
+        else if(b.getId() == R.id.hoteles){
+            Intent intent = new Intent(this, Hotel.class);
             startActivity(intent);
         }
-        else if(b.getId() == R.id.movies){
+        else if(b.getId() == R.id.peliculas){
             Intent intent = new Intent(this, movies.class);
             startActivity(intent);
         }
-        /*else if(b.getId() == R.id.parking){
+        else if(b.getId() == R.id.parking){
             Intent intent = new Intent(this, parking.class);
             startActivity(intent);
         }
-        else if(b.getId() == R.id.events){
-            Intent intent = new Intent(this, events.class);
-            startActivity(intent);
-        }*/
+
 
     }
 }

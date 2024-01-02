@@ -24,7 +24,7 @@ public class Hotel extends AppCompatActivity implements View.OnClickListener{
         setContentView(R.layout.activity_hotel);
 
 
-        back=findViewById(R.id.backBoton);
+        back = findViewById(R.id.backBoton);
         back.setOnClickListener(this);
 
         web1.findViewById(R.id.b1);
@@ -52,7 +52,7 @@ public class Hotel extends AppCompatActivity implements View.OnClickListener{
         tel5.setOnClickListener(this);
         web6.setOnClickListener(this);
         tel6.setOnClickListener(this);
-
+    }
     @Override
     public void onClick(View view) {
 
