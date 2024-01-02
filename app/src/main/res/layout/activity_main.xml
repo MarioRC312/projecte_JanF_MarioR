@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@color/white"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
 
     <TextView
@@ -22,8 +21,7 @@
         android:textSize="40dp"
         android:textColor="@color/black"
         android:background="@color/lightBlue"
-        android:fontFamily="@font/lemonmilk"
-        />
+        android:fontFamily="@font/lemonmilk"/>
 
 
 
@@ -34,9 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="20dp"
-        android:src="@drawable/restaurants"
-
-        />
+        android:src="@drawable/restaurants"/>
 
     <ImageButton
         android:id="@+id/hoteles"
@@ -45,8 +41,7 @@
         android:layout_marginTop="100dp"
         android:layout_marginLeft="50dp"
         android:src="@drawable/hotels"
-        android:layout_toRightOf="@+id/restaurant"
-        />
+        android:layout_toRightOf="@+id/restaurant"/>
 
     <ImageButton
         android:id="@+id/peliculas"
@@ -56,8 +51,7 @@
         android:layout_marginLeft="50dp"
         android:src="@drawable/movies"
         android:layout_below="@+id/hoteles"
-        android:layout_toRightOf="@+id/parking"
-        />
+        android:layout_toRightOf="@+id/parking"/>
 
     <ImageButton
         android:id="@+id/parking"
@@ -66,8 +60,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:src="@drawable/parking"
-        android:layout_below="@+id/restaurant"
-        />
+        android:layout_below="@+id/restaurant"/>
 
 
 
