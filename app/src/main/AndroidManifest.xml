@@ -24,6 +24,42 @@
             android:name=".mifune_neko"
             android:exported="false" />
         <activity
+            android:name=".tikThai"
+            android:exported="false" />
+        <activity
+            android:name=".Tailandesa"
+            android:exported="false" />
+        <activity
+            android:name=".ostryaCellerFerrer"
+            android:exported="false" />
+        <activity
+            android:name=".nana_japones"
+            android:exported="false" />
+        <activity
+            android:name=".laGranOlla"
+            android:exported="false" />
+        <activity
+            android:name=".kodama"
+            android:exported="false" />
+        <activity
+            android:name=".Japonesa"
+            android:exported="false" />
+        <activity
+            android:name=".canForquilla"
+            android:exported="false" />
+        <activity
+            android:name=".LlistaMovies"
+            android:exported="false" />
+        <activity
+            android:name=".detallsMovies"
+            android:exported="false" />
+        <activity
+            android:name=".movies"
+            android:exported="false" />
+        <activity
+            android:name=".Hotel"
+            android:exported="false" />
+        <activity
             android:name=".parking"
             android:exported="false" />
         <activity
@@ -31,7 +67,9 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -30,9 +30,11 @@ public class movies extends AppCompatActivity {
 
         lista.setAdapter(new LlistaMovies(this,datos,datosImg));
 
+        //aixó quan clickes en un item de la llista hauria executar el intent i anar al xml de detalls_movies o hi ha informació més detallada de la peli en cuestió
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
                 Intent visorDetalles = new Intent(view.getContext(), detallsMovies.class);
                 visorDetalles.putExtra("TIT", datos[position][0]);
                 visorDetalles.putExtra("DET", datos[position][4]);

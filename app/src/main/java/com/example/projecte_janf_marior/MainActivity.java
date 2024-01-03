@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         restaurant=findViewById(R.id.restaurant);
         restaurant.setOnClickListener(this);
 
-        hotels=findViewById(R.id.hoteles);
+        hotels=findViewById(R.id.hotels);
         hotels.setOnClickListener(this);
 
         movies=findViewById(R.id.peliculas);
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(this, restaurants.class);
             startActivity(intent);
         }
-        else if(b.getId() == R.id.hoteles){
+        else if(b.getId() == R.id.hotels){
             Intent intent = new Intent(this, Hotel.class);
             startActivity(intent);
         }

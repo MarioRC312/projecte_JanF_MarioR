@@ -94,16 +94,16 @@ public class Japonesa extends Fragment implements View.OnClickListener{
         ImageButton b = (ImageButton)view;
 
         if(b.getId() == R.id.imgRest1){
-            Intent intentRes1 = new Intent(this, kodama.class);
-            startActivity(intentRes1);
+            //Intent intentRes1 = new Intent(this, kodama.class);
+            //startActivity(intentRes1);
         }
         else if (b.getId() == R.id.imgRest2){
-            Intent intentRes2 = new Intent(this, nana_japones.class);
-            startActivity(intentRes2);
+            //Intent intentRes2 = new Intent(this, nana_japones.class);
+            //startActivity(intentRes2);
         }
         else if (b.getId() == R.id.imgRest3){
-            Intent intentRes3 = new Intent(this, mifune_neko.class);
-            startActivity(intentRes3);
+            //Intent intentRes3 = new Intent(this, mifune_neko.class);
+            //startActivity(intentRes3);
         }
 
         Button boto = (Button)view;

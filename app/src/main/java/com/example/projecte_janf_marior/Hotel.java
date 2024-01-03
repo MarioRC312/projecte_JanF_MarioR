@@ -56,6 +56,8 @@ public class Hotel extends AppCompatActivity implements View.OnClickListener{
     @Override
     public void onClick(View view) {
 
+        //aquests botons permeten trucar per telefon al hotel i anar a la pagina web del hotel
+
         Button boto = (Button)view;
 
         if(boto.getId() == R.id.backBoton){

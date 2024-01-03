@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-/**
+/*
  * A simple {@link Fragment} subclass.
  * Use the {@link Tailandesa#newInstance} factory method to
  * create an instance of this fragment.
@@ -98,16 +98,16 @@ public class Tailandesa extends Fragment implements View.OnClickListener {
         ImageButton b = (ImageButton)view;
 
         if(b.getId() == R.id.imgRest1){
-            Intent intentRes1 = new Intent(this, tikThai.class);
-            startActivity(intentRes1);
+            //Intent intentRes1 = new Intent(this, tikThai.class);
+            //startActivity(intentRes1);
         }
         else if (b.getId() == R.id.imgRest2){
-            Intent intentRes2 = new Intent(this, leks_thai.class);
-            startActivity(intentRes2);
+            //Intent intentRes2 = new Intent(this, leks_thai.class);
+            //startActivity(intentRes2);
         }
         else if (b.getId() == R.id.imgRest3){
-            Intent intentRes2 = new Intent(this, pure_cuisine.class);
-            startActivity(intentRes2);
+            //Intent intentRes2 = new Intent(this, pure_cuisine.class);
+            //startActivity(intentRes2);
         }
 
         Button boto = (Button)view;
